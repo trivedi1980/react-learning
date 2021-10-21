@@ -1,3 +1,4 @@
+// run this code at https://jscomplete.com/playground/rgs2.4
 const CardList = (props) => (
 	<div>
   	{props.profiles.map(profile => <Card key={profile.id}{...profile}/>)}
